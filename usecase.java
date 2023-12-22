@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class usecase_w {
+public class usecase {
 
     public static void main(String[] args) {
         try {
