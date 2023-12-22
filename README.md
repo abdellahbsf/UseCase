@@ -36,4 +36,5 @@ When both the use case recorder and the application server are running on the sa
 
 
 This will open a terminal on your machine, enabling you to start recording use cases. Once you finish recording, a message will appear, indicating the successful execution of the command. As a result, a JSON file will be added to your directory.
-<img width="560" alt="50" src="https://github.com/abdellahbsf/flicker/assets/56552282/7c938c3a-f2bd-4100-93d2-5de61636b70a">
+
+<img width="560" alt="50" src="https://github.com/abdellahbsf/flicker/assets/56552282/89b65bf8-4352-4e35-9d1b-c3f9e9190623">
