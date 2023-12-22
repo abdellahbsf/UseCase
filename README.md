@@ -31,6 +31,7 @@ Start the application server and your application with the -javaagent JVM argume
 When both the use case recorder and the application server are running on the same machine, execute the following command in your terminal:
 
 ```bash
+cd UseCases
 javac usecase_w.java
 java usecase
 ```
