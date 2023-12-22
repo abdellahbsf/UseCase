@@ -32,4 +32,4 @@ When both the use case recorder and the application server are running on the sa
 
    ```bash
    javac usecase_w.java
-   java usecase
+   java usecase_w
