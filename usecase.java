@@ -8,9 +8,9 @@ public class usecase {
         try {
             // Step 3: Run the Flicker tool
             String workingDir = System.getProperty("user.dir");
-            String flickerDirectory = workingDir + "\\flicker";
-            String flickerCommand = "java -cp .\\commons-net-3.6.jar;json-simple-1.1;. -jar .\\flicker-1.0.jar -no_ntp";
-            executeCommandInDirectory(flickerCommand, flickerDirectory);
+            // String flickerDirectory = workingDir + "\\flicker";
+            String flickerCommand = "java -cp .\\flicker\\commons-net-3.6.jar;json-simple-1.1;. -jar .\\flicker\\flicker-1.0.jar -no_ntp";
+            executeCommandInDirectory(flickerCommand, workingDir);
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
