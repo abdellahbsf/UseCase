@@ -34,5 +34,6 @@ When both the use case recorder and the application server are running on the sa
 javac usecase_w.java
 java usecase_w
 
+#
 This will open a terminal on your machine, enabling you to start recording use cases. Once you finish recording, a message will appear, indicating the successful execution of the command. As a result, a JSON file will be added to your directory.
 
