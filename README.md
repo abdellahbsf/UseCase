@@ -28,7 +28,7 @@ Start the application server and your application with the -javaagent JVM argume
 
 # Recording Business Use Cases Interactively
 
-When both the use case recorder and the application server are running on the same machine, clone the repository,  and execute the following command in your terminal:
+The following commands run the Flicker tool, where both it and the running monolithic application are on the same machine. First clone the repository,  and scroll to the working directory:
 
 ```bash
 javac usecase.java
