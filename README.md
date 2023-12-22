@@ -30,10 +30,10 @@ Start the application server and your application with the -javaagent JVM argume
 
 When both the use case recorder and the application server are running on the same machine, execute the following command in your terminal:
 
-```bash
-javac usecase_w.java
-java usecase_w
+   ```bash
+   -javaagent:./instrumenter/minerva-agent-1.0.jar=<agent-config-path>
 
-#
+- <agent-config-path> is the fully qualified path of the directory containing the three JSON files created by the code analyzer.
+  
 This will open a terminal on your machine, enabling you to start recording use cases. Once you finish recording, a message will appear, indicating the successful execution of the command. As a result, a JSON file will be added to your directory.
 
