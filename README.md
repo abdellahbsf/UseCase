@@ -33,6 +33,6 @@ When both the use case recorder and the application server are running on the sa
    ```bash
    javac usecase_w.java
    java usecase_w
-
+'''
 A terminal will open on your machine, allowing you to commence recording use cases. Upon completing the use case recording, a message will appear indicating the 'successful execution of the command'. Subsequently, a JSON file will be added to your directory.
 
