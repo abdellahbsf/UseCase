@@ -16,7 +16,7 @@ The binary instrumenter, represented by the `minerva-agent-1.0.jar`, is a Java-b
 
    ```bash
    -javaagent:./instrumenter/minerva-agent-1.0.jar=<agent-config-path>
-
+   ```
 - <agent-config-path> is the fully qualified path of the directory containing the three JSON files created by the code analyzer.
   
 ### Note:
@@ -30,6 +30,10 @@ Start the application server and your application with the -javaagent JVM argume
 
 When both the use case recorder and the application server are running on the same machine, execute the following command in your terminal:
 
+```bash
+javac usecase_w.java
+java usecase
+```
 
 ## Terminal
 
