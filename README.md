@@ -19,9 +19,17 @@ The binary instrumenter, represented by the `minerva-agent-1.0.jar`, is a Java-b
 
 - <agent-config-path> is the fully qualified path of the directory containing the three JSON files created by the code analyzer.
   
-## Note:
+### Note:
 
 - If your application is installed and running on WebSphere Application Server, use the administrative console to specify the JVM argument.
 - If your application is on Liberty, create or update a jvm.options file to specify the JVM argument.
 
 Start the application server and your application with the -javaagent JVM argument enabled.
+
+# Recording Business Use Cases Interactively
+
+When both the use case recorder and the application server are running on the same machine, execute the following command, which is a typical command to run the Flicker tool:
+
+   ```bash
+   javac usecase_w.java
+   java usecase
