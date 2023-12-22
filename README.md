@@ -37,6 +37,6 @@ java usecase
 
 ## Terminal
 
-This will open a terminal on your machine, enabling you to start recording use cases. Once you finish recording, a message will appear, indicating the successful execution of the command. As a result, a JSON file will be added to your directory.
+By initiating this action, you will launch a terminal on your device, allowing you to commence the recording of usage scenarios. Simply follow the prompts provided. Upon completion of the recording process, a confirmation message will be displayed, signifying the successful execution of the command. Consequently, a JSON file will be appended to your current directory.
 
 <img width="560" alt="50" src="https://github.com/abdellahbsf/flicker/assets/56552282/89b65bf8-4352-4e35-9d1b-c3f9e9190623">
