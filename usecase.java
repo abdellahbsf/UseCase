@@ -7,7 +7,8 @@ public class usecase_w {
     public static void main(String[] args) {
         try {
             // Step 3: Run the Flicker tool
-            String flickerDirectory = "C:\\Users\\bsf\\Desktop\\mono2micro\\flicker";
+            String workingDir = System.getProperty("user.dir");
+            String flickerDirectory = workingDir + "\\flicker";
             String flickerCommand = "java -cp .\\commons-net-3.6.jar;json-simple-1.1;. -jar .\\flicker-1.0.jar -no_ntp";
             executeCommandInDirectory(flickerCommand, flickerDirectory);
 
